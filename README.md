@@ -1,15 +1,26 @@
-# Chatbot Concierge #
+# Chatbot Concierge
 
-## About ##
+## Objective
 
-Frontend starter repository for HW 1 of the Cloud Computing & Big Data
-class at Columbia University and New York University.
+This is a simple chatbot that briefly converses with the user and finds restaurants based on the conversation from the yelp databse and sends a text message of the recommendations.
 
-## Usage ##
+This was a part of Cloud Computing course at New York University, and was a way to get used to various AWS services
 
-1. Clone the repository.
-2. Replace `/assets/js/sdk/apigClient.js` with your own SDK file from API
-   Gateway.
-3. Open `chat.html` in any browser.
-4. Start sending messages to test the chatbot interaction.
+Following services were used in building this application out
+
+* S3
+* API Gateway
+* Lambda
+* Lex
+* SQS
+* SNS
+* Elastic Search
+* DynamoDB
+* Yelp API for data sourcing
+
+## Components
+
+
+##  Flow
+
 
